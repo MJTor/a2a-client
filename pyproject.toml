@@ -1,0 +1,14 @@
+[project]
+name = "a2a-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "a2a-sdk>=0.3.4",
+    "dotenv>=0.9.9",
+    "httpx>=0.28.1",
+    "sse-starlette>=3.0.2",
+    "starlette>=0.47.3",
+    "uvicorn>=0.35.0",
+]
