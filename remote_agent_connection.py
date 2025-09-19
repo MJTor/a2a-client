@@ -17,7 +17,7 @@ logger.setLevel(logging.INFO)
 
 class RemoteAgentConnection:
     def __init__(self, agent_card: AgentCard, agent_url: str):
-        print(f'Agent Card initialized: {agent_card.model_dump_json(indent=2)}\n\nWith url: {agent_url}')
+        #print(f'Agent Card initialized: {agent_card.model_dump_json(indent=2)}\n\nWith url: {agent_url}')
 
         self._httpx_client = httpx.AsyncClient(timeout=None)
         self.agent_client = A2AClient(
